@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+System.set(${1:'module'}, ${2:Module(${3:\{\$: \$\}})});
+]]></content>
+	<tabTrigger>System.set</tabTrigger>
+	<scope>source.js</scope>
+	<description>ES6 System Set Module</description>
+</snippet>
