@@ -22,7 +22,7 @@ ES6-Toolkit:
 
   ----------------------------------------------------------------------------------
 
-  ## Featues
+  ## Features
 
   The ES6-Toolkit comes pre-packages with lots of cool tools. Below is a short list
   with links to more information in the Wiki Pages:
