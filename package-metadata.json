@@ -1,1 +1,0 @@
-{"sublime_text": ">=3000", "dependencies": [], "version": "1.0.0", "url": "https://github.com/Stephn-R/ES6-Toolkit", "description": "Full-Featured support for using ES6 in Sublime and compiling into ES5", "platforms": ["osx", "linux", "windows"]}
