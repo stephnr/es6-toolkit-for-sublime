@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+${1:var} => ${2:function}
+]]></content>
+	<tabTrigger>arrow</tabTrigger>
+	<scope>source.js</scope>
+	<description>ES6 Arrow Function</description>
+</snippet>

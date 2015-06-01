@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+
+]]></content>
+	<tabTrigger>let:for</tabTrigger>
+	<scope>source.js</scope>
+	<description>ES6 For Loop using Let</description>
+</snippet>
