@@ -1,0 +1,6 @@
+[
+	{
+		"caption": "JS Toolkit: Compile ES6 JS File",
+		"command": "toolkit_compile_file"
+	}
+]
