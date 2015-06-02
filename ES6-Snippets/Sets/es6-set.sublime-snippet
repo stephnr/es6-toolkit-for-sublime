@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+var ${1:set} = new Set();
+]]></content>
+	<tabTrigger>Set</tabTrigger>
+	<scope>source.js</scope>
+	<description>ES6 Set</description>
+</snippet>

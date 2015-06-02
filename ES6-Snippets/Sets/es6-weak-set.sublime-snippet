@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+var ${1:set} = new WeakSet();
+]]></content>
+	<tabTrigger>WeakSet</tabTrigger>
+	<scope>source.js</scope>
+	<description>ES6 WeakSet</description>
+</snippet>

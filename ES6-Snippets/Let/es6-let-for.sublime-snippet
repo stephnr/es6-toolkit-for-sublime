@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-let ${1:var} = {
+let ${1:v} = {
   [Symbol.iterator]() {
   	${2:let pre = ${3:0}, cur = ${4:1};}
   	return {

@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 // WARNING: System.set is not finalized yet
-System.set(${1:'module'}, ${2:Module(${3:\{\$: \$\}})});
+System.set(${1:'jquery'}, ${2:Module(${3:\{\$: \$\}})});
 ]]></content>
 	<tabTrigger>System.set</tabTrigger>
 	<scope>source.js</scope>

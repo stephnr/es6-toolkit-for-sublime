@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+var ${1:map} = new WeakMap();
+]]></content>
+	<tabTrigger>WeakMap</tabTrigger>
+	<scope>source.js</scope>
+	<description>ES6 WeakMap</description>
+</snippet>

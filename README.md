@@ -1,5 +1,5 @@
-# ES6-Toolkit
-A toolkit containing various commands and snippets for using ES6 today
+# ES6-Toolkit for Sublime Text
+A toolkit containing various commands and snippets for using ES6 today in Sublime
 
 ----------------------------------------------------------------------------------
                                   IMPORTANT
@@ -32,24 +32,163 @@ with links to more information in the Wiki Pages:
 ES6 Completions
 ---
 
-#### Arrow Functions
+#### [Arrow] Arrow Functions
 
-#### Class Declaration
+```js
+var => function
+```
 
-#### Generator
+#### [Class] Class Declaration
 
-#### Let
+```js
+class Classname extends AnotherClass {
+  constructor(args) {
+    // code
+  }
 
-#### Modules
+  // methods
+}
+```
 
-#### Object-Literal
+#### [generator] Generator
 
-#### Template Strings
+```js
+var generator = {
+  [Symbol:iterator]: function() {
+	var pre = 0, cur = 1;
+	for(;;) {
+	  var temp = pre;
+	  pre = cur;
+	  cur += temp;
+	  yield cur;
+	}
+  }
+}
+```
+
+#### [let:iterator] Iterator using Let
+
+```js
+let v = {
+  [Symbol.iterator]() {
+    let pre = 0, cur = 1;
+    return {
+	  next() {
+	    [pre, cur] = [cur, pre + cur];
+	    return { done: false, value: cur };
+	  }
+	}
+  }
+}
+```
+
+#### [let] Let
+
+```js
+let x = 'something';
+```
+
+#### [Map] Map
+
+```js
+var map = new Map();
+```
+
+#### [WeakMap] WeakMap
+
+```js
+var map = new WeakMap();
+```
+
+#### [import] Module Import
+
+```js
+import * as mod from 'lib/package';
+```
+
+#### [System.import] Module Import via System
+
+```js
+System.import('my-module').then(function(m) {
+	// code...
+});
+```
+
+#### [export:variable] Module Exporting
+
+```js
+export var myvar = value;
+```
+
+#### [Loader] Module Loading using Loader
+
+```js
+var loader = new Loader({
+  global: fixup(window)
+});
+```
+
+#### [System.get] Module Loading using Get
+
+```js
+System.get('module');
+```
+
+#### [System.set] Module Loading using Set
+
+```js
+// WARNING: System.set is not finalized yet
+System.set('jquery', Module({$: $}));
+```
+
+#### [object] Object Literal
+
+```js
+var obj = {
+  __proto__: theProtoObj,
+  handler,
+  toString() {
+    return "object";
+  }
+}
+```
+
+#### [Promise] Promise
+
+```js
+Promise((resolve, reject) => {
+  // code...
+});
+```
+
+#### [Proxy] Proxy
+
+```js
+var p = new Proxy(target, handler);
+```
+
+#### [Set] Set
+
+```js
+var set = new Set();
+```
+
+#### [WeakSet] WeakSet
+
+```js
+var set = new WeakSet();
+```
+
+#### [string] String Templates
+
+```js
+${some_var}
+```
 
 Support
 ----
 
 To learn more about the features and settings, please visit
-http://wbond.net/sublime_packages/svn.
+https://github.com/Stephn-R/ES6-Toolkit-for-Sublime
 
-If you are having trouble, please contact me at support@wbond.net.
+If you are having trouble, please contact me at steprodriguez10@gmail.com

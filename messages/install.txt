@@ -39,8 +39,8 @@ ES6-Toolkit:
   ----
   
   To learn more about the features and settings, please visit
-  http://wbond.net/sublime_packages/svn.
+  https://github.com/Stephn-R/ES6-Toolkit-for-Sublime
   
-  If you are having trouble, please contact me at support@wbond.net.
+  If you are having trouble, please contact me at steprodriguez10@gmail.com
   
   
