@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 var ${1:generator} = {
-  [Symbol:iterator]: function() {
+  [Symbol:iterator]: function*() {
     ${2:var ${3:pre} = ${4:0}, ${5:cur} = ${6:1};}
     for(;;) {
       ${7:var ${8:temp} = ${9:pre};
