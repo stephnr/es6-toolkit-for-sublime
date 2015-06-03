@@ -20,12 +20,12 @@ The ES6-Toolkit comes pre-packages with lots of cool tools. Below is a short lis
 with links to more information in the Wiki Pages:
 
 1. ES6 Completions => [Wiki Link]()
+2. Compile entire JS files to JS compatible code using Babel
 
 ## Coming Soon
 
 1. ES6 Inline Compiling
-2. Compile entire JS files to ES5 using Babel
-3. Compile entire projects to ES5 using Babel
+2. Compile entire projects to ES5 using Babel
 
 -----------------------------------------------------------------------------------
 
