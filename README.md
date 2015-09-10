@@ -19,7 +19,7 @@ npm install -g babel
 The ES6-Toolkit comes pre-packages with lots of cool tools. Below is a short list
 with links to more information in the Wiki Pages:
 
-1. ES6 Completions => [Wiki Link]()
+1. ES6 Completions => [Wiki Link](https://github.com/lukehoban/es6features)
 2. Compile entire JS files to JS compatible code using Babel
 
 ## Coming Soon
