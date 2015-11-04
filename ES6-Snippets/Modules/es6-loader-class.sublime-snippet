@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 var ${1:loader} = new Loader({
-  ${2:global: fixup(window)}
+	${2:global: fixup(window)}
 });
 ]]></content>
 	<tabTrigger>Loader</tabTrigger>

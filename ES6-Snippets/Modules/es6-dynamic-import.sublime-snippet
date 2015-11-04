@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 System.import(${1:'my-module'})${2:.then(function(${3:m}) \{
-  $3
+	$3
 \})};
 ]]></content>
 	<tabTrigger>System.import</tabTrigger>

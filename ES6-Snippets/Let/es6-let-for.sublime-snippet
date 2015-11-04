@@ -1,15 +1,15 @@
 <snippet>
 	<content><![CDATA[
 let ${1:v} = {
-  [Symbol.iterator]() {
-  	${2:let pre = ${3:0}, cur = ${4:1};}
-  	return {
-  		next() {
-  			${5:[pre, cur] = [cur, pre + cur];}
-  			${6:return ${7:\{ done: ${8:false}, value: ${9:cur}\};}}
-  		}
-  	};
-  }
+	[Symbol.iterator]() {
+		${2:let pre = ${3:0}, cur = ${4:1};}
+		return {
+			next() {
+				${5:[pre, cur] = [cur, pre + cur];}
+				${6:return ${7:\{ done: ${8:false}, value: ${9:cur}\};}}
+			}
+		};
+	}
 };$10
 ]]></content>
 	<tabTrigger>let:iterator</tabTrigger>

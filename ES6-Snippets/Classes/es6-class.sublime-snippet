@@ -1,11 +1,11 @@
 <snippet>
 	<content><![CDATA[
 class ${1:Classname} ${2:extends AnotherClass} {
-  ${3:constructor(${4:args}) {
-    ${5:// code}
-  \}}
+	${3:constructor(${4:args}) {
+		${5:// code}
+	\}}
 
-  ${6:// methods}
+	${6:// methods}
 }$7
 ]]></content>
 	<tabTrigger>class</tabTrigger>
