@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 Promise((resolve, reject) => {
-  $2
+	$2
 });
 ]]></content>
 	<tabTrigger>Promise</tabTrigger>
