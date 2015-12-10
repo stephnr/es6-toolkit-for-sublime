@@ -1,6 +1,8 @@
 # ES6-Toolkit for Sublime Text
 A toolkit containing various commands and snippets for using ES6 today in Sublime
 
+## Download Details in [Package Control](https://packagecontrol.io/packages/ES6-Toolkit)
+
 ----------------------------------------------------------------------------------
                                   IMPORTANT
 ----------------------------------------------------------------------------------
