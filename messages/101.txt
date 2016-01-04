@@ -1,0 +1,18 @@
+Package Control Messages
+========================
+
+ES6-Toolkit:
+---
+
+  ## New Features
+
+  1. Added new snippets for Reflect => See more at MDN:
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect
+
+  Support
+  ----
+  
+  To learn more about the features and settings, please visit
+  https://github.com/Stephn-R/ES6-Toolkit-for-Sublime
+  
+  If you are having trouble, please contact me at steprodriguez10@gmail.com
