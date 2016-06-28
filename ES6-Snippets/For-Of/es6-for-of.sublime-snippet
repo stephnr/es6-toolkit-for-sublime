@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+for (let ${1:value} of ${2:iterable}) {
+	
+}
+]]></content>
+	<tabTrigger>fo</tabTrigger>
+	<scope>source.js</scope>
+	<description>for of</description>
+</snippet>
