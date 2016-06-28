@@ -187,6 +187,14 @@ var set = new WeakSet();
 ${some_var}
 ```
 
+#### [ForLet] For Loop using Let
+
+```js
+for (let value of iterable) {
+  // do something
+}
+```
+
 ...and more!!!
 
 Support
